@@ -9,8 +9,14 @@ Run the following commands in order from the root of your project to create tabl
 1. Install dependencies
 ```
 $ npm install
-```
 
+```
+If there is any issue running then try 
+
+```
+$ npm install --force
+
+```
 2. Run migrations
 ```
 $ knex migrate:latest
@@ -25,7 +31,7 @@ $ knex seed:run
 ```
 $ node server.js
 
-Server listening on port: 3000
+Server listening on port: 3001
 ```
 
 
