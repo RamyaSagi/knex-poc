@@ -1,8 +1,8 @@
-# knex-bookshelf-example
+# knex-bookshelf-poc
 
-### To Run App Locally:
+### To Run App:
 
-Create your database locally and add username and db name to `knexfile.js` development config object.
+Create your database locally and add username and db name to `knexfile.js` development object.
 
 Run the following commands in order from the root of your project to create tables, seed tables and start node server.
 
